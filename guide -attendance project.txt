@@ -1,0 +1,7 @@
+I built this RFID Attendance Monitoring System from scratch by using Python and Tkinter. First, I created a simple GUI (Graphical User Interface) using Tkinter, which allows users to enter RFID codes (acting like student ID cards). I started by defining a dictionary in Python, which holds RFID numbers linked to student names. This simulates the real RFID scanning process. When a user enters an RFID, the system checks if it matches a student's ID in the dictionary.
+
+Next, I added a function to record the student's name and the current time when the correct RFID is entered. This uses the `datetime` module to capture the date and time, making it easier to track when attendance was marked. The system then displays the student’s name along with the timestamp in a listbox on the screen.
+
+I also added buttons for marking attendance and clearing the list of attendance records. The “Clear Attendance” button clears both the list and the records. To make the interface more user-friendly, I styled it with colors, professional fonts, and layouts to make it look clean and organized.
+
+Overall, this system simulates RFID-based attendance and provides an easy-to-use, colorful interface for users.
